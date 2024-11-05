@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    body{
+        background-color: rgba(0, 38, 255, 0.76);
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 2px solid black;
+        width: 50%;
+        height: 80vh;
+        position: relative;
+        left: 310px;
+        top: 50px;
+        border-radius: 5px;
+        box-shadow: 4px 4px purple ;
+        color: rgba(0, 0, 255, 0.795);
+        background-color: rgba(0, 255, 242, 0.938);
+       
+        
+    
+        
+    }
+    p{
+        font-size: larger;
+        font-weight: 700;
+    }
+    
+    .form input{
+        height: 20px;
+        border-radius: 5px;
+        background-color: rgba(104, 112, 119, 0.116);
+    }
+     
+    
+    </style>
+    
+
+<div class="form">
+   <p>Email:</p>  <input type="email" placeholder="Enter your email adress" id="inputEmail">
+    <br>
+    <br>
+
+   <p>Password:</p> <input type="password" placeholder="Enter your password" id="inputPass">
+
+    <br>
+    <br>
+
+
+    <button onclick="checkUser()">login</button>
+
+    <a href="signup.html">go to signup</a>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
